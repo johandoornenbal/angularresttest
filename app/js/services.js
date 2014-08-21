@@ -8,7 +8,7 @@ angular.module('myApp.services', ['ngResource'])
     )
   })
   .factory('Isis', function($resource){
-	  return $resource('http://isisprutsapp.johandoornenbal.eu.cloudbees.net/restful/services\\/',{})
+	  return $resource('http://isisprutsapp.johandoornenbal.eu.cloudbees.net/restful/services/simple',{})
   })
   .factory('Hello', function($resource){
 	  return $resource('http://rest-service.guides.spring.io/greeting',{})
